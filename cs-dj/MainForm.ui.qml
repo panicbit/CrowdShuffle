@@ -8,8 +8,8 @@ Rectangle {
 
     MouseArea {
         id: mouseArea
-        width: 800
-        height: 800
+        width: parent.width
+        height: parent.height
         anchors.rightMargin: 0
         anchors.bottomMargin: 0
         anchors.fill: parent
